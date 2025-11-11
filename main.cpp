@@ -180,9 +180,9 @@ GLvoid Keyboard(unsigned char key, int x, int y)
 {
     switch (key)
     {
-        case 'q':
-            glutLeaveMainLoop();
-            break;
+    case 'q':
+        glutLeaveMainLoop();
+        break;
     }
     glutPostRedisplay();
 }
